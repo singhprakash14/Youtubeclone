@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="icon" href="./head_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/c610c7a2ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main_nav">
+      <div class="logo">
+        <i class="fa-solid fa-bars"></i>
+        <a href="./index.html"> <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" id="logo" alt="logo" /></a>
+      </div>
+      <div class="searchdiv">
+        <input type="text" placeholder="Search" id="searchBox" />
+        <button id="sicon" onclick="searchvid()">
+          <i class="material-icons sicon">search</i>
+        </button>
+        <i class="material-icons mike" id="mike">mic</i>
+      </div>
+      <div class="signdiv">
+        <i class="fa-solid fa-video"></i>
+        <i class="material-icons">apps</i>
+        <i class="fa-solid fa-bell"></i>
+        <div class="signin" onclick="alertfun()">
+          <i class="material-icons">account_circle</i>
+          <h4>SIGN IN</h4>
+        </div>
+      </div>
+    </div>
+    <hr id="largeHr">
+    <div id="youbody">
+      <div id="sidePanel">
+        <div class="rnav">
+          <a href="./index.html"> <span><i class="material-icons">home</i></span>
+          <p>Home</p>
+          </a>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">explore</i></span>
+          <p>Explore</p>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">subscriptions</i></span>
+          <p>Subscriptions</p>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">video_library</i></span>
+          <p>Library</p>
+        </div>
+        <hr>
+        <div class="rnav">
+          <span><i class="material-icons">history</i></span>
+          <p>History</p>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">watch_later</i></span>
+          <p>Watch Later</p>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">thumb_up</i></span>
+          <p>Live</p>
+        </div>
+        <div class="rnav">
+          <span><i class="material-icons">theaters</i></span>
+          <p>Movies</p>
+        </div>
+    </div>
+      <div id="trend"></div>
+      <div id="disvideo"></div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
