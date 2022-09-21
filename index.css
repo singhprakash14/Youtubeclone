@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@500&family=Ms+Madi&family=Poppins:wght@200;300;600&family=Roboto:wght@300&family=Whisper&display=swap");
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 180px;
+}
+#largeHr{
+    width: 83%;
+    margin-right: 0px;
+}
+#result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 5px;
+}
+#disvideo {
+  margin-left: -430px;
+}
+#result > div:nth-child(2) {
+  margin-left: -180px;
+}
+#iframe {
+  height: 202px;
+  width: 360px;
+  border: 0px;
+}
+#youbody {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#nav {
+  border: 1px solid red;
+  width: 240px;
+}
+
+#trend {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+  margin-left: -430px;
+}
+.videodiv {
+  width: 255px;
+  transition: transform .2s
+}
+.videodiv:hover{
+    transform: scale(1.15);
+    z-index: 9999;
+}
+#titlename {
+  height: 50px;
+}
+#thumbnail {
+  height: 142px;
+  width: 253px;
+}
+#main_nav {
+  display: flex;
+  height: 50px;
+  gap: 20px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo>i{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+#utubelogo>img{
+    width: 100%;
+    height: 35px;
+}
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+.searchdiv {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+}
+#searchBox {
+  height: 34px;
+  width: 525px;
+  font-size: 110%;
+}
+.signdiv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signin {
+    height: 35px;
+  display: flex;
+  align-items: center;
+  color: #347bbf;
+  border: 1px solid #347bbf;
+}
+.sicon {
+  padding: 4px;
+  background-color: white;
+}
+#sicon {
+  padding: 3px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+#sidePanel {
+  width: 5%;
+  margin-left: 5px;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 0.4;
+}
+.rnav,.rnav>a {
+    display: flex;
+    width: 210px;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+}
+.rnav:hover  {
+    background-color: #e5e5e5;
+}
